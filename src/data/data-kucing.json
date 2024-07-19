@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "title": "BATMAN",
+      "tier": "SSR",
+      "url": "/src/assets/image/kucing-batman.jpg"
+    },
+    {
+      "id": 2,
+      "title": "KEREN",
+      "tier": "S",
+      "url": "/src/assets/image/kucing-keren.jpg"
+    },
+    {
+      "id": 3,
+      "title": "SHOLEH",
+      "tier": "SSR",
+      "url": "/src/assets/image/kucing-sholeh.jpg"
+    },
+    {
+      "id": 4,
+      "title": "GOJO",
+      "tier": "SSR",
+      "url": "/src/assets/image/kucing-gojo.jpg"
+    },
+    {
+      "id": 5,
+      "title": "NARSIS",
+      "tier": "S",
+      "url": "/src/assets/image/kucing-narsis.jpg"
+    },
+    {
+      "id": 6,
+      "title": "THUG-LIFE",
+      "tier": "S",
+      "url": "/src/assets/image/kucing-thug.jpg"
+    },
+    {
+      "id": 7,
+      "title": "SIGMA",
+      "tier": "SS",
+      "url": "/src/assets/image/sigma-cat.jpg"
+    },
+    {
+      "id": 8,
+      "title": "GOKU",
+      "tier": "SS",
+      "url": "/src/assets/image/kucing-goku.jpg"
+    },
+    {
+      "id": 9,
+      "title": "ACE",
+      "tier": "S",
+      "url": "/src/assets/image/kucing-ace.jpg"
+    },
+    {
+      "id": 10,
+      "title": "SANTAI",
+      "tier": "SS",
+      "url": "/src/assets/image/kucing-enjoy.jpg"
+    },
+    {
+        "id": 11,
+        "title": "SAD",
+        "tier": "S",
+        "url": "/src/assets/image/kucing-sad.jpg"
+    },
+    {
+        "id": 12,
+        "title": "NGAMBEK",
+        "tier": "SSR",
+        "url": "/src/assets/image/kucing-ngambekan.jpg"
+    },
+    {
+        "id": 13,
+        "title": "COPET",
+        "tier": "S",
+        "url": "/src/assets/image/kucing-copet.jpg"
+    }
+  ]
+  
