@@ -10,6 +10,7 @@ import { useNavigate } from 'react-router-dom';
 import icon from '../assets/image/github-sign.png'
 import icon2 from '../assets/image/donation.png'
 
+
 import Batman from '../assets/image/kucing-batman.jpg';
 import Keren from '../assets/image/kucing-keren.jpg';
 import Sholeh from '../assets/image/kucing-sholeh.jpg';
@@ -24,6 +25,7 @@ import Sad from '../assets/image/kucing-sad.jpg';
 import Ngambek from '../assets/image/kucing-ngambekan.jpg';
 import Copet from '../assets/image/kucing-copet.jpg';
 
+const saweria = import.meta.env.VITE_SAWERIA_URL
 
 const miaw = new Audio(Meow);
 
@@ -163,19 +165,16 @@ const Cek = () => {
           <ArrowBigLeft color='white' onClick={handleBack} className='absolute bottom-10 left-8'/>
           <Info color='white' className='absolute right-8 bottom-10' onClick={handleInfo}/>
         </div>
-        <div className={clsx(`bg-custom-gray-100 w-full h-[170px] absolute bottom-0 duration-200 drop-shadow-xl rounded-t-lg`, !popup ?`  translate-y-[100%]` : 'translate-y-0' )}>
+        <div className={clsx(`bg-custom-gray-100 w-full h-[175px] absolute bottom-0 duration-200 drop-shadow-xl rounded-t-lg`, !popup ?`  translate-y-[100%]` : 'translate-y-0' )}>
             <div className='grid grid-cols-3 px-3 py-3'>
               <span></span>
-              <h2 className='text-xl font-lancelot text-center'>About Creator</h2>
+              <h2 className='text-xl font-lancelot text-center'>Support Creator</h2>
               <div className='flex justify-end'>
                 <X onClick={() => setPopup(false)}/>
               </div>
             </div>
             <div className='flex gap-8 justify-center items-center mt-4'>
-              <a href="https://github.com/wisnadiputra1" target='_blank'>
-                <img src={icon} alt="" className='w-10'/>
-              </a>
-              <a href="https://saweria.co/KhodamKhoceng" target='_blank'>
+              <a href={saweria} target='_blank'>
                 <img src={icon2} alt="" className='w-10'/>
               </a>
             </div>
