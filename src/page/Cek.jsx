@@ -7,8 +7,23 @@ import defaultImage from '../assets/image/default.jpg';
 import Meow from '../assets/sound/meow.mp3';
 import { ArrowBigLeft, Info, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import icon from '../assets/image/instagram.png'
+import icon from '../assets/image/github-sign.png'
 import icon2 from '../assets/image/donation.png'
+
+import Batman from '../assets/image/kucing-batman.jpg';
+import Keren from '../assets/image/kucing-keren.jpg';
+import Sholeh from '../assets/image/kucing-sholeh.jpg';
+import Gojo from '../assets/image/kucing-gojo.jpg';
+import Narsis from '../assets/image/kucing-narsis.jpg';
+import ThugLife from '../assets/image/kucing-thug.jpg';
+import Sigma from '../assets/image/sigma-cat.jpg';
+import Goku from '../assets/image/kucing-goku.jpg';
+import Ace from '../assets/image/kucing-ace.jpg';
+import Santai from '../assets/image/kucing-enjoy.jpg';
+import Sad from '../assets/image/kucing-sad.jpg';
+import Ngambek from '../assets/image/kucing-ngambekan.jpg';
+import Copet from '../assets/image/kucing-copet.jpg';
+
 
 const miaw = new Audio(Meow);
 
@@ -55,8 +70,56 @@ const Cek = () => {
     setPopup(true)
   }
 
+  let catImg = ''
+
+ switch (randomNumber) {
+    case 1:
+      catImg = Batman;
+      break;
+    case 2:
+      catImg = Keren;
+      break;
+    case 3:
+      catImg = Sholeh;
+      break;
+    case 4:
+      catImg = Gojo;
+      break;
+    case 5:
+      catImg = Narsis;
+      break;
+    case 6:
+      catImg = ThugLife;
+      break;
+    case 7:
+      catImg = Sigma;
+      break;
+    case 8:
+      catImg = Goku;
+      break;
+    case 9:
+      catImg = Ace;
+      break;
+    case 10:
+      catImg = Santai;
+      break;
+    case 11:
+      catImg = Sad;
+      break;
+    case 12:
+      catImg = Ngambek;
+      break;
+    case 13:
+      catImg = Copet;
+      break;
+    default:
+      catImg = defaultImage;
+      break;
+ }
+
+
   const selectedItem = randomNumber !== null ? data[randomNumber - 1] : null;
-  const img = selectedItem ? selectedItem.url : defaultImage;
+  const img = selectedItem ? catImg : defaultImage;
 
   console.log(img);
 
@@ -109,7 +172,7 @@ const Cek = () => {
               </div>
             </div>
             <div className='flex gap-8 justify-center items-center mt-4'>
-              <a href="https://www.instagram.com/wisna___" target='_blank'>
+              <a href="https://github.com/wisnadiputra1" target='_blank'>
                 <img src={icon} alt="" className='w-10'/>
               </a>
               <a href="https://saweria.co/KhodamKhoceng" target='_blank'>
